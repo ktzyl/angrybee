@@ -3,6 +3,7 @@
 ## Azure VM Performance
 
 1. [Query Guest OS process usage by LogAnalytics](https://www.google.com.hk/)
+2. Test2
 
 
 
