@@ -4,7 +4,7 @@
 
 #real-cool-heading
 
-### Linux
+[Linux](#real-cool-heading)
 
 1. Log into [Azure portal](https://portal.azure.com/)
 2. Open your Log Analytics Space (create one if you do not have) and [Add agent performance counter](https://docs.microsoft.com/en-us/azure/azure-monitor/agents/data-sources-performance-counters)
