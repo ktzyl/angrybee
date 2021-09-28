@@ -1,6 +1,6 @@
 ## Azure VM Performance
 
-1. [Query Guest OS process usage by LogAnalytics](docs/pages/GuestOSProcessUsage.md)
+1. [Query guest OS process usage with Log Analytics](docs/pages/QueryguestOSprocessusagewithLogAnalytics.md)
 
 
 
