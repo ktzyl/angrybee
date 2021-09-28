@@ -11,9 +11,9 @@
 3. Connect VM into the Log Analytics Workspace
     - Click **Virtual machines**
     - Select the VM you want to monitor, for example: cent78-1
-    ![image](../images/SelectVMinWorkspace.jpg)<br/>
-    - Click **Connect**
-    ![image](../images/ConnectWorkspace.jpg)
+    ![image](../images/SelectVMinWorkspace.jpg)  
+    - Click **Connect**  
+    ![image](../images/ConnectWorkspace.jpg)  
 4. Simulate high CPU inside VM guest OS (for exampel: CentOS)
     - SSH into VM
     - Load stress  
