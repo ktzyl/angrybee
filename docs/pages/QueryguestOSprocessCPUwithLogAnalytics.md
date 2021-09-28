@@ -1,10 +1,6 @@
 ## Query guest OS process CPU with Log Analytics
 
-#Real Cool Heading
-
-#real-cool-heading
-
-[Linux](#real-cool-heading)
+### [Linux](#Linux)
 
 1. Log into [Azure portal](https://portal.azure.com/)
 2. Open your Log Analytics Space (create one if you do not have) and [Add agent performance counter](https://docs.microsoft.com/en-us/azure/azure-monitor/agents/data-sources-performance-counters)
@@ -42,7 +38,7 @@
         ```
     ![image](../images/1/LinQueryCPUConsumption.jpg)
 
-### Windows
+### [Windows](#Windows)
 
 1. Log into [Azure portal](https://portal.azure.com/)
 2. Open your Log Analytics Space (create one if you do not have) and [Add agent performance counter](https://docs.microsoft.com/en-us/azure/azure-monitor/agents/data-sources-performance-counters)
