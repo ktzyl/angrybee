@@ -11,14 +11,14 @@
 3. Connect VM into the Log Analytics Workspace
     - Click **Virtual machines**
     - Select the VM you want to monitor, for example: cent78-1
-    ![image](../images/SelectVMinWorkspace.jpg) <br/>
+    ![image](../images/SelectVMinWorkspace.jpg)<br/>
     - Click **Connect**
     ![image](../images/ConnectWorkspace.jpg)
 4. Simulate high CPU inside VM guest OS (for exampel: CentOS)
     - SSH into VM
     - Load stress  
-    `[leon@cent78-1 ~]$ sudo yum install stress -y`
-    `[leon@cent78-1 ~]$ stress –cpu 1`
+    `[leon@cent78-1 ~]$ sudo yum install stress -y`<br/>
+    `[leon@cent78-1 ~]$ stress –cpu 1`<br/>
     - Open another SSH session to check CPU consumption
     `[leon@cent78-1 ~]$ top`
     ![image](../images/StressCPU.jpg)
