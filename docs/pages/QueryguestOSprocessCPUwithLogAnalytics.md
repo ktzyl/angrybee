@@ -13,19 +13,19 @@
     - Select the VM you want to monitor, for example: cent78-1
     ![image](../images/SelectVMinWorkspace.jpg)  
     - Click **Connect**  
-    ![image](../images/ConnectWorkspace.jpg)  
+    ![image](../images/ConnectWorkspace.jpg)
 4. Simulate high CPU inside VM guest OS (for exampel: CentOS)
     - SSH into VM
     - Load stress  
     `[leon@cent78-1 ~]$ sudo yum install stress -y`  
-    `[leon@cent78-1 ~]$ stress –cpu 1`<br/>
-    - Open another SSH session to check CPU consumption
+    `[leon@cent78-1 ~]$ stress –cpu 1`
+    - Open another SSH session to check CPU consumption  
     `[leon@cent78-1 ~]$ top`
     ![image](../images/StressCPU.jpg)
 5. Query CPU consumption
     - Open VM in Azure portal
     - Click **Logs**
-    - Query the CPU consumption <br/>
+    - Query the CPU consumption
         ```
         Perf
         | where CounterName contains "Pct User"
