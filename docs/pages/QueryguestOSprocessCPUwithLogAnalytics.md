@@ -18,7 +18,7 @@
     - SSH into VM
     - Load stress  
     `[leon@cent78-1 ~]$ sudo yum install stress -y`  
-    `[leon@cent78-1 ~]$ stress –cpu 1`
+    `[leon@cent78-1 ~]$ stress --cpu 1`
     - Open another SSH session to check CPU consumption  
     `[leon@cent78-1 ~]$ top`  
     ![image](../images/1/StressCPU.jpg)
