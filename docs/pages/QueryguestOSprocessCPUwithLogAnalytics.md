@@ -20,7 +20,7 @@
     `[leon@cent78-1 ~]$ sudo yum install stress -y`  
     `[leon@cent78-1 ~]$ stress –cpu 1`
     - Open another SSH session to check CPU consumption  
-    `[leon@cent78-1 ~]$ top`
+    `[leon@cent78-1 ~]$ top`  
     ![image](../images/StressCPU.jpg)
 5. Query CPU consumption
     - Open VM in Azure portal
