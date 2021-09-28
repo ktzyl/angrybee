@@ -11,26 +11,28 @@
 3. Connect VM into the Log Analytics Workspace
     - Click **Virtual machines**
     - Select the VM you want to monitor, for example: cent78-1
-    ![image](../images/SelectVMinWorkspace.jpg)
+    ![image](../images/SelectVMinWorkspace.jpg)  
     - Click **Connect**
     ![image](../images/ConnectWorkspace.jpg)
 4. Simulate high CPU in VM
     - SSH into VM
-    - Load stress
+    - Load stress  
     `[leon@cent78-1 ~]$ sudo yum install stress -y` <br/>
     `[leon@cent78-1 ~]$ stress –cpu 1` <br/>
-    - Open another SSH session to check CPU consumption
+    - Open another SSH session to check CPU consumption <br/>
     `[leon@cent78-1 ~]$ top`
     ![image](../images/StressCPU.jpg)
 5. Query CPU consumption
     - Open VM in Azure portal
     - Click **Logs**
     - Query the CPU consumption <br/>
-        ```Perf
+        ```
+        Perf
         | where CounterName contains "Pct User"
         | summarize avg(CounterValue) by CounterValue, InstanceName, bin(TimeGenerated, 5m)
         | project InstanceName, avg_CounterValue, TimeGenerated
-        | order by TimeGenerated,avg_CounterValue desc```
+        | order by TimeGenerated,avg_CounterValue desc
+        ```
     ![image](../images/QueryCPUConsumption.jpg)
 
 
