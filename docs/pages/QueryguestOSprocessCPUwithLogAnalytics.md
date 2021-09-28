@@ -17,7 +17,7 @@
 4. Simulate high CPU inside VM guest OS (for exampel: CentOS)
     - SSH into VM
     - Load stress  
-    `[leon@cent78-1 ~]$ sudo yum install stress -y`<br/>
+    `[leon@cent78-1 ~]$ sudo yum install stress -y`  
     `[leon@cent78-1 ~]$ stress –cpu 1`<br/>
     - Open another SSH session to check CPU consumption
     `[leon@cent78-1 ~]$ top`
