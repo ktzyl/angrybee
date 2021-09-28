@@ -1,5 +1,6 @@
 ## Query guest OS process CPU with Log Analytics
 
+### [Linux](#Linux) | [Windows](#Windows)
 ### [Linux](#Linux)
 
 1. Log into [Azure portal](https://portal.azure.com/)
