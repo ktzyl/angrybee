@@ -21,7 +21,8 @@
     `[leon@cent78-1 ~]$ stress --cpu 1`
     - Open another SSH session to check CPU consumption  
     `[leon@cent78-1 ~]$ top`  
-    ![image](../images/1/StressCPU.jpg)
+    ![image](../images/1/StressCPU.jpg)  
+    - Press Ctrl-C in both sessions to stop simulation
 5. Query CPU consumption
     - Open VM in Azure portal
     - Click **Logs**
