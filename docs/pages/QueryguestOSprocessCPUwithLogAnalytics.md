@@ -17,15 +17,15 @@
 4. Simulate high CPU in VM
     - SSH into VM
     - Load stress
-    `[leon@cent78-1 ~]$ sudo yum install stress -y` </br>
-    `[leon@cent78-1 ~]$ stress –cpu 1` </br>
+    `[leon@cent78-1 ~]$ sudo yum install stress -y` <br/>
+    `[leon@cent78-1 ~]$ stress –cpu 1` <br/>
     - Open another SSH session to check CPU consumption
     `[leon@cent78-1 ~]$ top`
     ![image](../images/StressCPU.jpg)
 5. Query CPU consumption
     - Open VM in Azure portal
     - Click **Logs**
-    - Query the CPU consumption </br>
+    - Query the CPU consumption <br/>
         ```Perf
         | where CounterName contains "Pct User"
         | summarize avg(CounterValue) by CounterValue, InstanceName, bin(TimeGenerated, 5m)
