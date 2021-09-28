@@ -1,6 +1,6 @@
 ## Azure VM Performance
 
-1. [Query guest OS process CPU with Log Analytics](docs/pages/QueryguestOSprocessCPUwithLogAnalytics.md)
+1. **[Query guest OS process CPU with Log Analytics](docs/pages/QueryguestOSprocessCPUwithLogAnalytics.md)**
 
 
 
