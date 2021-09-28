@@ -1,6 +1,6 @@
 ## Query guest OS process CPU with Log Analytics
 
-### [Linux](#Linux) | [Windows](#Windows)
+
 ### [Linux](#Linux)
 
 1. Log into [Azure portal](https://portal.azure.com/)
@@ -17,7 +17,7 @@
     ![image](../images/1/LinSelectVMinWorkspace.jpg)  
     - Click **Connect**  
     ![image](../images/1/LinConnectWorkspace.jpg)
-4. Simulate high CPU inside VM guest OS - optiontinal step, for example: CentOS7.8
+4. Simulate high CPU inside VM guest OS - optiontinal step, for example: **CentOS7.8**
     - SSH into VM
     - Load stress for 10 mins  
     `[leon@cent78-1 ~]$ sudo yum install stress -y`  
@@ -55,7 +55,7 @@
     ![image](../images/1/WinSelectVMinWorkspace.jpg)  
     - Click **Connect**  
     ![image](../images/1/WinConnectWorkspace.jpg)
-4. Simulate high CPU inside VM guest OS - optiontinal step, for example: Windows 2019 DataCenter
+4. Simulate high CPU inside VM guest OS - optiontinal step, for example: **Windows 2019 DataCenter**
     - RDP into VM
     - Download [CPUStres](https://docs.microsoft.com/en-us/sysinternals/downloads/cpustres)
     - Extract downloaded Zip file
