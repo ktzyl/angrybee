@@ -22,10 +22,12 @@
     - Load stress for 10 mins  
     ```
     sudo yum install stress -y
-    stress --cpu 1
+    sudo stress --cpu 1
     ```
     - Open another SSH session to check CPU consumption  
-    `top`  
+    ```
+    sudo top
+    ```
     ![image](../images/1/LinStressCPU.jpg)  
     - Press Ctrl-C in both sessions to stop simulation
 5. Query CPU consumption
