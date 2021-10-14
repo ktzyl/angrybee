@@ -27,8 +27,7 @@
     - Open another SSH session to check CPU consumption  
     ```
     sudo top
-    ```
-    
+    ```    
     ![image](../images/1/LinStressCPU.jpg)  
     - Press Ctrl-C in both sessions to stop simulation
 5. Query CPU consumption
