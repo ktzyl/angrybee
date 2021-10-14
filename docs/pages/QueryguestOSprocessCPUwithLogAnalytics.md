@@ -36,6 +36,7 @@
         | summarize avg(CounterValue) by CounterValue, InstanceName, bin(TimeGenerated, 5m)
         | project InstanceName, avg_CounterValue, TimeGenerated
         | order by TimeGenerated,avg_CounterValue desc
+        | top 10 by avg_CounterValue
         ```
     ![image](../images/1/LinQueryCPUConsumption.jpg)
 
@@ -73,5 +74,6 @@
         | summarize avg(CounterValue) by CounterValue, InstanceName, bin(TimeGenerated, 5m)
         | project InstanceName, avg_CounterValue, TimeGenerated
         | order by TimeGenerated,avg_CounterValue desc
+        | top 10 by avg_CounterValue
         ```
     ![image](../images/1/WinQueryCPUConsumption.jpg)
